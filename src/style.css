@@ -1,0 +1,124 @@
+#bgvid {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.viewport-header {
+  position: relative;
+  height: 100vh;
+
+  font-family: "Rajdhani", sans-serif;
+}
+.top {
+  text-align: center;
+  color: #fff;
+  margin-top: 20px;
+  text-shadow: 2px 2px 4px #000000;
+}
+.spaceship {
+  font-weight: 700;
+}
+.basic {
+  text-align: center;
+}
+.app-body {
+  width: 750px;
+  margin: 0 auto;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(91, 202, 217, 0.65);
+  text-shadow: 2px 2px 3px rgb(13, 70, 72);
+  color: #fff;
+}
+
+.climate {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.location {
+  padding-top: 20px;
+}
+.sc-chosen {
+  font-size: larger;
+  font-weight: bold;
+}
+.scale {
+  font-size: large;
+}
+.day {
+  font-size: 20px;
+  text-align: center;
+  padding: 15px 5px 15px 10px;
+  background-color: #fff;
+  color: rgb(13, 70, 72);
+  border-radius: 4px;
+  margin: 10px 5px;
+  text-shadow: none;
+  line-height: 40px;
+}
+
+.wkd {
+  font-weight: 500;
+}
+.current {
+  vertical-align: top;
+}
+.temp-location {
+  font-size: 60px;
+  font-weight: 500;
+  padding-top: 0;
+}
+.now-max-min {
+  vertical-align: middle;
+}
+.fa-solid {
+  color: rgb(13, 70, 72);
+}
+.now-icon {
+  font-size: 70px;
+  color: #fff;
+}
+.place {
+  padding: 6px 12px;
+  line-height: 1.5;
+  border: 1px solid;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+}
+.search-field {
+  display: inline;
+  border: 0;
+}
+.searching {
+  display: block;
+  padding: 0 12px;
+}
+.astro {
+  color: #fff;
+  font-size: smaller;
+}
+p {
+  font-size: 18px;
+}
+.day-icon {
+  font-size: 22px;
+}
+.temp-icon {
+  font-size: smaller;
+}
+#celsius,
+#fahrenheit {
+  color: #fff;
+  direction: none;
+  text-decoration: none;
+}
+#currentLoc {
+  margin-left: 5px;
+  color: #347474;
+}
