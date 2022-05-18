@@ -122,3 +122,11 @@ p {
   margin-left: 5px;
   color: #347474;
 }
+footer{
+  text-align: center;
+  color:#347474
+}
+#github{
+  text-decoration: none;
+  color:rgba(91, 202, 217, 0.65)
+}
