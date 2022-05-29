@@ -1,3 +1,4 @@
+
 let timestamp = new Date();
 function formatDate(date) {
   let weekday = [
@@ -32,7 +33,7 @@ function searchCityName(event) {
 
   axios.get(apiUrl).then(showWeather);
 }
-
+///function weatherIcon(response){if }
 let form = document.querySelector(".search-field");
 form.addEventListener("submit", searchCityName);
 
@@ -58,6 +59,7 @@ function showWeather(response) {
   document.querySelector("#minToday").innerHTML = Math.round(
     response.data.main.temp_min
   );
+  document.querySelector("#date").innerHTML = formatDate(response.data.dt*1000)
 }
 
 function showLocation(position) {
